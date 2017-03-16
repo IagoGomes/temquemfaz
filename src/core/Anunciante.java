@@ -48,5 +48,5 @@ public class Anunciante extends Usuario {
   public void notificarServico(Contrato contrato) {
 
 	}
-
+ 
 }
