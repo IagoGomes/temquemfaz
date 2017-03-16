@@ -3,8 +3,7 @@ package core;
 import java.util.Collection;
 
 /**
- *
- * @author yanka
+ *Classe que representa o usuário 
  */
 public class Usuario {
 
@@ -42,28 +41,25 @@ public class Usuario {
 
 
 	/**
-	 *  
-   * @param endereco
-   * @param endereco
-	 */ // Este método adiciona um endereço físico ao cadastro do usuário, contendo informações sobre a rua, cidade,
-	//  bairro, cep, estado, complemento, número da casa, e país. 
+	 * Método que adiciona o endereço do usuário
+	 * @param endereco : Endereco
+	 */
 	public void adicionarEndereco(Endereco endereco) {
 
 	}
 
 	/**
-	 *  
-	 */ //Método que carrega do banco de dados todos os contratos do usuário. 
-        //Os contratos recuperados pelo método deverão ser salvos na lista, listContratos
+	 *  Método que carrega do banco de dados todos os contratos do usuário.
+	 */ 
 	public void carregarContratos() {
 
 	}
 
-  /**
-   *
-   * @param contrato
-   */ 
-  public void notificarUsuario(Contrato contrato) {
+	/**
+	 *  Método que notifica o usuário sobre um novo contrato
+	 * @param contrato: Contrato
+	 */ 
+  	public void notificarUsuario(Contrato contrato) {
 
 	}
 
