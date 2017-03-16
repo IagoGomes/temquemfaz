@@ -1,8 +1,7 @@
 package core;
 
 /**
- *
- * @author yanka
+ *Classe que representa a qualificação de uma transação
  */
 public class Qualificacao {
 
