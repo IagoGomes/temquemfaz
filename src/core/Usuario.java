@@ -1,6 +1,7 @@
 package core;
 
 import java.util.Collection;
+import java.util.Date;
 
 /**
  *Classe que representa o usuário 

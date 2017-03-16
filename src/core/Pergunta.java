@@ -1,5 +1,7 @@
 package core;
 
+import java.util.Date;
+
 /**
  * Esta classe organiza a interação entre cliente e anuncio, em que 
  *   o cliente faz perguntas ao anunciante sobre determinado serviço 

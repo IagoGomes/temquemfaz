@@ -1,12 +1,28 @@
 package core;
 
+import java.util.Date;
+
 /**
  * Classe que armazena todas as informações pertinentes ao pagamento de um contrato
  *   realizado pelos clientes.
  */
 public class Pagamento {
-
-	public enum Tipo {DINHEIRO, CARTAO_DEBITO, CARTAO_CREDITO};
+        /**
+         * Enumerador que define os tipos de pagamento possíveis
+         */ 
+	public enum Tipo {
+            /**
+             * Tipo de pagamento realizado diretamente entre o cliente e o prestador de serviço
+             */
+             DINHEIRO, 
+             /**
+             * pagamento realizado pela plataforma, via débito online
+             */
+             CARTAO_DEBITO,
+             /**
+             * pagamento realizado pela plataforma, via cartão de crédito
+             */
+             CARTAO_CREDITO};
 
 	private Date dataConfirmacao;
 
