@@ -2,8 +2,10 @@ package core;
 
 /**
  *
- * @author yanka
- */
+ * Esta classe é responsável pelos atributos relacionados ao endereço
+ * do usuário cadastrado no site, tais como pais, rua, número, cidade, 
+ * bairro, cep e estado.
+  */
 public class Endereco {
 
 	private String rua;
