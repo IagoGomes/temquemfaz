@@ -1,8 +1,11 @@
 package core;
 
 /**
- *
- * @author yanka
+ * Esta classe organiza a interação entre cliente e anuncio, em que 
+ *   o cliente faz perguntas ao anunciante sobre determinado serviço 
+ *   prestado.
+ * Assim, a classe armazena a pergunta, a resposta e informções sobre 
+ *  o usuário que fez a pergunta e o anúncio em questão.
  */
 public class Pergunta {
 
@@ -19,28 +22,26 @@ public class Pergunta {
 	private Anuncio anuncio;
 
 	/**
-	 *  
-   * @param pergunta
-	 */ //Este método deve armazenar a pergunta realizada pelo cliente. Automaticamente essa função deve chamar a função salvar.
+	 *  Este método deve armazenar a pergunta realizada pelo cliente. 
+	 *   Automaticamente essa função deve chamar a função salvar.
+         * @param pergunta
+	 */ 
         public Pergunta(String pergunta) {
 
 	}
 
 	/**
-	 *  
+	 *  Este método deve armazenar informações não salvas
 	 */
-	//Este método deve armazenar informações não salvas
 	public void salvar() {
 
 	}
 
 	/**
-	 *  
-	 *  
-	 *  
-   * @param resposta
-   * @param resposta
-	 */ // Nete método o anunciante pode responder à perguntas
+	 *  Neste método o anunciante pode responder à perguntas 
+         * @param resposta
+         * @param resposta
+	 */ 
 	public void responder(String resposta) {
 
 	}
