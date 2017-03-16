@@ -1,8 +1,8 @@
 package core;
 
 /**
- *
- * @author yanka
+ * Classe que armazena todas as informações pertinentes ao pagamento de um contrato
+ *   realizado pelos clientes.
  */
 public class Pagamento {
 
@@ -21,11 +21,9 @@ public class Pagamento {
 	private Boleto boleto;
 
   /**
-   *
-   * @return
+   * Método que verifica se o pagamento já foi confirmado de acordo com a data de confirmação.
+   * @return boolean
    */
-	
-  // Método que verifica se o pagamento já foi confirmado de acordo com a data de confirmação.
   public boolean confirmado() {
 		return false;
 	}
